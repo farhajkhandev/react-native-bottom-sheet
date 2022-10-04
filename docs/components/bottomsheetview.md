@@ -53,7 +53,7 @@ const App = () => {
       <Button title="Snap To 25%" onPress={() => handleSnapPress(0)} />
       <Button title="Close" onPress={() => handleClosePress()} />
       <BottomSheet
-        ref={sheetRef}
+        refs={sheetRef}
         snapPoints={snapPoints}
         onChange={handleSheetChange}
       >
